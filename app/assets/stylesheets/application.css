@@ -15,5 +15,13 @@
  */
 body {
   font-family:verdana;
-  color:#333;
 }
+.job-result{
+    color: #08487C;
+    font-family: "Arial" ;
+}
+.job-result:nth-child(odd){background-color: #E5F8FF;
+border: 1px solid black;
+}
+
+.job-result h2{font-family: "Helvetica Neue", "Arial", sans-serif;}
