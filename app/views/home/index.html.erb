@@ -1,2 +1,8 @@
 <h1>Home#index</h1>
 <p>Find me in app/views/home/index.html.erb</p>
+<br/>
+<%= form_tag(controller: "jobs", action: "search") do %>
+    <%= text_field_tag(:keyword) %>
+    <%=submit_tag("Find Construction Jobs")%>
+
+<% end %>
