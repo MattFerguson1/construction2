@@ -1,3 +1,25 @@
-// Place all the styles related to the Home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{text-align: center;}
+
+form label {
+  display: block;
+  font-size: 1.5em;
+}
+form {margin: 0 auto;
+      width: 625px;
+      border:1px solid black;
+      text-align: left;
+      padding: .5rem 2.5%;}
+
+form input[type=text]{height: 2em;
+                      line-height: 2em;
+                      font-size: 1rem;}
+
+form input[type=submit] {background:#08487C;
+                         border-color:#08487C;
+                         color: white;
+                         font-size: 2em;
+                         padding: .5rem 2.5%;
+}
+
+.clear {clear:both;}
