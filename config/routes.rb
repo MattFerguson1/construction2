@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root 'home#index'
   get 'jobs/search', to: 'jobs#search', as: :jobs_search
   post 'jobs/search', to: 'jobs#search', as: :jobs_search_submit
+  get 'job', to: 'jobs#details', as: :job_details
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

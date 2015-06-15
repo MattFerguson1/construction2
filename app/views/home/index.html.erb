@@ -3,6 +3,8 @@
 <%= form_tag(controller: "jobs", action: "search") do %>
     <%=label_tag :keyword,'Keywords'%>
     <%= text_field_tag(:keyword) %>
+    <%=label_tag :location,'Location'%>
+    <%= text_field_tag(:location) %>
     <%=submit_tag("Find Construction Jobs")%>
     <div class="clear"></div>
 

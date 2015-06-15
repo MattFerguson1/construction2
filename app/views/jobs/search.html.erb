@@ -1,8 +1,10 @@
 <h1>Construction Jobs In Atlanta</h1>
 <p>Find me in app/views/jobs/search.html.erb</p>
 <% @jobs.each do |job| %>
+    <a href='/job?job_did=<%= job.model.did %>'>
     <div class="job-result">
       <h2><%= job.model.title %></h2>
-      <%= job.model.description %> <br/>
+      <!--<%= job.model.description %> <br/>-->
     </div>
+    </a>
 <% end %>
